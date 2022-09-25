@@ -1,0 +1,775 @@
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;700&family=Work+Sans:ital,wght@0,100;0,300;0,400;0,600;1,700&display=swap');
+
+
+*{
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  background-image: ;
+  background-color: rgb(16, 0, 43);
+  background-attachment: fixed;
+}
+
+/* selectores de etiqueta */
+
+h1{
+  color:rgb(224, 210, 255) ;
+  font-family: 'Montserrat',sans-serif;
+  font-size: 4.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 30px;
+  padding-bottom: 20px;
+  border-top: solid pink;
+}
+
+h2{
+  font-size: 3.5rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3{
+  font-size: 2.2rem;
+  font-family: 'Montserrat',sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+nav{
+  background-color: rgb(0, 0 ,0);
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  padding: 4px 3px;
+}
+
+  nav a img{
+    width: 190px;
+    height: 100px;
+    padding: 10px;
+    overflow: hidden;
+    display: inline;
+   
+  }
+
+  nav ul{
+    list-style: none;
+    margin-top: -35px;
+    padding-left: 120px;
+    padding-right: 120px;
+    /*flex*/
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+  }
+    nav ul li{
+      list-style: none;
+    }
+
+    nav ul li a{
+      color: rgb(90, 24, 154);
+      text-decoration: none;
+      font-family: 'Montserrat',sans-serif;
+      font-size: 2rem;
+      font-weight: bold;
+      text-transform: uppercase;
+      line-height: 2.4rem;
+      position: relative;
+      bottom: 40px;
+    }
+
+    nav ul li a:hover{
+      color: rgb(224, 210, 255);
+      font-weight: 600;
+    }
+/* selector al hijo P */
+header{
+  background: rgb(220,207,231);
+  background: linear-gradient(180deg, rgba(220,207,231,1) 0%, rgba(179,161,205,1) 10%, rgba(138,98,193,1) 31%, rgba(19,1,43,1) 100%);
+  display: flex;
+  justify-content: center;;
+}
+
+main section p{
+  color: rgb(224, 210, 255);
+  font-size: 1.8rem;
+  margin-top: 20px;
+  padding-bottom: 30px;
+  font-family: 'Montserrat',sans-serif;
+}
+
+
+  main section h3{
+    background-color: rgb(157, 78, 221);
+
+  }
+
+    main section div div div div a img{
+      position: relative;
+      bottom: 450px ;
+      width: 30%;
+      padding: 0px;
+      margin: 0px;
+      padding-bottom:20px ;
+    }
+
+      main section div div div div div div {
+         display: inline-block;
+     }
+
+        main section div div div div div div a img{
+          width: 300px;
+          height: 300px;
+          padding-left: 30px;
+          padding-top: 50px;
+          margin-bottom: 50px;
+          position: sticky;
+         }
+
+section{
+  display: flex;
+  justify-content: center;
+}
+
+form{
+  font-size: 1.5rem;
+  color: rgb(242, 242, 242);
+  display: flex;
+  justify-content: center;
+}
+
+footer{
+  background-color: rgb(05, 06, 06);
+}
+footer div img{
+  width: 190px;
+  height: 100px;
+  padding-top: 20px;
+}
+
+  footer div div a img{
+    padding-top: 30px;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(224, 170, 255);
+  }
+
+  footer div p{
+    font-size: 1.1rem;
+    font-family: 'Montserrat',sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+main section div ul{
+  font-family: 'Montserrat',sans-serif;
+  list-style: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 50px;
+  border-bottom: solid pink;
+}
+
+
+/* selector de grupo */
+h1,h2,h3{
+  color: rgb(224, 210, 255);
+}
+
+
+/* selectores de clases */
+
+.clear{
+  clear:both;
+}
+
+.text-white{
+  color: rgb(242, 242, 242);
+}
+
+.text-center{
+  text-align: center;
+}
+
+.text-right{
+  text-align: right;
+}
+
+.flexbox-container {
+display: flex;
+}
+.flexbox-container > div {
+
+padding: 20px 100px;
+margin-right: 100px;
+display: flex;
+}
+
+
+/* selectores de ID */
+
+#tour-img-text{
+  display: flex;
+  justify-content: center;
+}
+
+
+#merch-bg{
+  background-color: rgb(252, 171, 100);
+  background-blend-mode: multiply;
+  padding: 00px;
+}
+
+#merch-img-text{
+  display: flex;
+  justify-content: center;
+}
+
+
+        /* Pagina discografia */
+
+#discografia{
+  border-top: solid pink;
+  border-bottom: solid pink 8px;
+  padding-top: 5px;
+  padding-bottom: 40px;
+}
+
+#disc-1{
+  padding: 30px;
+  margin: 30px;
+  width: 300px;
+  height: 300px;
+  display: flex;
+}
+
+#disc-2{
+  padding: 30px;
+  margin: 30px;
+  width: 300px;
+  height: 300px;
+  display: flex;
+}
+
+#disc-3{
+  padding: 30px;
+  margin: 30px;
+  height: 300px;
+  display: flex;
+}
+#disc-4{
+  padding: 30px;
+  margin: 30px;
+  width: 300px;
+  height: 300px;
+  display: flex;
+}
+
+#disc-5{
+  padding: 30px;
+  margin: 30px;
+  width: 300px;
+  height: 300px;
+  display: flex;
+}
+
+#disc-6{
+  padding: 30px;
+  margin: 30px;
+  width: 300px;
+  height: 300px;
+  display: flex;
+}
+#disc-7{
+  padding: 30px;
+  margin: 30px;  
+  width: 300px;
+  height: 300px;
+  display: flex;
+}
+
+#disc-8{
+  padding: 30px;
+  margin: 30px;
+  width: 300px;
+  height: 300px;
+  display: flex;
+}
+
+        /* Pagina Tour */
+
+#tour{
+  border-top: solid pink;
+  border-bottom: solid pink 7px;
+  padding-bottom: 20px;
+}
+
+
+
+#col-1{
+
+  font-size: 2rem;
+  color: rgb(224, 220, 255);
+  display: flex;
+  align-content: flex-start;
+  flex-direction: column;
+}
+
+#col-2{
+  font-size: 2rem;
+  color: rgb(224, 220, 255);
+}
+
+#col-3{
+  font-size: 2rem;
+  color: rgb(224, 220, 255);
+}
+
+#entradas{
+  background-color: rgb(250, 150, 221);
+  font-style: none;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 18px;
+}
+
+#entradas:hover{
+      color: rgb(224, 210, 255);
+      font-weight: 600;
+    }
+
+        /* Pagina community */
+
+#community{
+  border-top: solid pink;
+  border-bottom: solid pink;
+}
+
+#form-community{
+  padding-bottom: 50px;
+  padding-top: 30px;
+  border-bottom: solid pink;
+}
+
+        /* Pagina tienda */
+#tienda-h1{
+  border-top: solid pink;
+  padding-top: ;
+}
+
+#tienda-h3{
+  padding: 40px 40px;
+  border-top: solid pink;
+  border-bottom: solid pink 1px;
+}
+
+#tienda-1{
+  border-top: solid pink 2px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#tienda-2{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#tienda-3{
+  border-bottom: solid pink 2px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#merch-1{
+
+  padding: 30px;
+  margin: 30px;
+  width: 380px;
+  height: 380px;
+  display: flex;
+}
+
+#merch-2{
+  padding: 30px;
+  margin: 30px;
+  width: 380px;
+  height: 380px;
+  display: flex;
+}
+
+#merch-3{
+
+  padding: 30px;
+  margin: 30px;
+  width: 380px;
+  height: 380px;
+  display: flex;
+}
+
+
+#merch-4{
+  padding: 30px;
+  margin: 30px;
+  width: 380px;
+  height: 380px;
+  display: flex;
+}
+
+#merch-5{
+  padding: 30px;
+  margin: 30px;
+  width: 380px;
+  height: 380px;
+  display: flex;
+}
+
+#merch-6{
+  padding: 30px;
+  margin: 30px;
+  width: 380px;
+  height: 380px;
+  display: flex;
+}
+
+#merch-7{
+  padding: 30px;
+  margin: 30px;
+  width: 380px;
+  height: 380px;
+  display: flex;
+}
+
+#merch-8{
+  padding: 30px;
+  margin: 30px;
+  width: 380px;
+  height: 380px;
+  display: flex;
+}
+
+#merch-9{
+  padding: 30px;
+  margin: 30px;
+  width: 380px;
+  height: 380px;
+  display: flex;
+}
+
+#pie__line{
+  border-top: solid pink;
+}
+/* Box model */
+.encabezado__img--fluid{
+  width: 600px;
+}
+
+.bienvenidos__h1{
+  padding-top: 20px;
+}
+
+.bienvenidos__h3{
+  border-top: solid pink ;
+  border-bottom: solid pink;
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+.form{
+  margin: 50px 50px 0px 250px;
+}
+
+.tour__img{
+  width: 800px;
+  height: auto;
+  margin: 70px auto;
+  padding: 30px 270px;
+  border-top: solid pink;
+  border-bottom: solid pink;
+}
+
+.merch__mostrador{
+  padding-top: 0px; 
+  margin-bottom: 0px;
+  border-top: solid pink;
+  border-bottom: solid pink;
+  display: flex;
+  justify-content: space-evenly;
+}
+.pie{
+  text-align: center;
+}
+
+.pie__socialmedia{
+  padding-bottom: 20px;
+}
+
+.footer__text{
+  border-top: solid pink 1px;
+  padding-top: 20px;
+}
+
+/* Pagina Discografia */
+
+.disco{
+  padding-top: 0px;
+  margin-bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;;
+}
+
+.disco__img1{
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.disco__img2{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.disco__img3{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+/*tienda */
+
+.div-tienda{
+  padding-top: 0px;
+  margin-bottom: 0px;
+}
+
+
+/* zoom */
+
+.zoom{
+  transition: transform 0.2s; 
+}
+
+.zoom:hover{
+  transform: scale(1.1);
+}
+
+
+/* boton */
+
+.move {
+        position: relative;
+        display:flex;
+        border:2px solid rgb(154, 76, 149);
+        padding: 20px 30px;
+        overflow: hidden;
+        text-decoration: none;
+        align-content: flex-end;
+        width:100px;
+    }
+    .move:link, .move:visited {
+        color: rgb(242, 242, 242);
+    }
+    .move:hover {
+        color: rgb(154, 76, 149);
+    }
+    .move:after {
+        position:relative;
+        background-color: rgb(2154, 76, 149);
+    }
+    
+    }
+    .moveRight:hover:after {
+        transition: all 0.15s;
+        width:100%;
+    }
+
+    #next{
+      color: rgb(154, 76, 149);
+      display: flex;
+      align-content: flex-end;
+    }
+
+/*----- animaciones -----*/
+
+@keyframes animate__fadeInRight{
+  from{opacity: 0;}
+  to{opacity: 1;}
+}
+
+
+.fadeInRight{
+  animation-name: animate__fadeInRight;
+  animation-duration: 9sg;
+}
+
+.fadeInRight:focus-visible{
+  border: 2px solid crimson;
+}
+
+/*----- grid -----*/
+
+.grid{
+  display: grid;
+  width: 99%;
+}
+
+.grid-template-columns-row{
+  grid-template-columns: 200px 500px;
+  grid/grid-template-rows: 100px 300px 50px;
+  grid-gap: 20px;
+}
+
+.template-areas{
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 80px 500px 50px;
+  grid-template-areas: ;
+  ""
+}
+
+.justify-items{
+  justify-items: center;
+
+}
+
+.align-items{
+  align-items: center;
+}
+
+/*----- Responsive  ------- */
+
+@media (min-width: 576px){
+  #contenedor-grid{
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 20vh 60vh 20vh;
+    grid-template-areas: ;
+      "one one"
+      "two three"
+      "four five";
+  }
+}
+
+@media (min-width: 768px){
+  #contenedor-grid{
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 20vh 60vh 20vh;
+    grid-template-areas: ;
+      "one one"
+      "two three"
+      "four five";
+  }
+}
+
+@media (min-width: 992px){
+  #contenedor-grid{
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 20vh 60vh 20vh;
+    grid-template-areas: ;
+      "one one"
+      "two three"
+      "four five";
+  }
+}
+
+.one{
+  grid-area: one;
+}
+
+.two{
+  grid-area: two;
+}
+
+.three{
+  grid-area: three;
+}
+
+.four{
+  grid-area: four;
+}
+
+.five{
+  grid-area: five;
+}
+
+
+/*---- Menu responsive ----*/
+
+
+
+/* Estilos móvil/celular */
+
+@media all and (max-width: 700px) {
+
+  /* Oculta el nav en la parte izquiera */
+  .nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: red;
+    transform: translateX(-100vw);
+    transition: 0.5s;
+  }
+
+  /* Muestra el nav */
+  .nav--show {
+    transform: translateX(0);
+  }
+
+  .nav__button {
+    text-align: right;
+    margin: 1rem;
+  }
+
+  .nav__ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .nav__link {
+    display: block;
+    padding: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+  }
+}
+
+/* Estilos Escritorio */
+@media all and (min-width: 701px) {
+
+  /* Oculta botón de abrir o cerrar */
+  .nav__button,
+  .header__button-nav--open {
+    display: none;
+  }
+
+  /* Adapta el nav en horizontal */
+  .nav__ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+
+  .nav__link {
+    display: block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+  }
+
+  .nav__link:hover {
+    opacity: 0.5;
+  }
